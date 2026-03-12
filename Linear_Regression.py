@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+
 def linear_regression(dataset,unseen_dataset):
     dataset = dataset.sample(frac=1, random_state=42).reset_index(drop=True)
 
